@@ -12,5 +12,7 @@ DEVICE_PATH := device/realme/RMX1901
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1901
 
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # Inherit from the proprietary version
 -include vendor/realme/RMX1901/BoardConfigVendor.mk
