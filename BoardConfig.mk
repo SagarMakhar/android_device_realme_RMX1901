@@ -9,6 +9,9 @@ include device/realme/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/RMX1901
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1901,RMX1901CN
 
