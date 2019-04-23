@@ -21,5 +21,8 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
+# VNDK
+BOARD_VNDK_RUNTIME_DISABLE := false
+
 # Inherit from the proprietary version
 -include vendor/realme/RMX1901/BoardConfigVendor.mk
