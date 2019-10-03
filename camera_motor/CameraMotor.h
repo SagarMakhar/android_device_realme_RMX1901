@@ -32,8 +32,6 @@ using ::android::hardware::Void;
 
 class CameraMotor : public ICameraMotor {
   public:
-    CameraMotor();
-
     Return<void> onConnect(const hidl_string& cameraId) override;
     Return<void> onDisconnect(const hidl_string& cameraId) override;
 };
