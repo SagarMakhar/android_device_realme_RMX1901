@@ -12,6 +12,9 @@ DEVICE_PATH := device/realme/RMX1901
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1901
 
+# Kernel
+TARGET_KERNEL_CONFIG := RMX1901_defconfig
+
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # SEPolicy
