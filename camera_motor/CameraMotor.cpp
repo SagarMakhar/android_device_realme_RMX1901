@@ -23,6 +23,10 @@
 #include <fstream>
 #include <thread>
 
+#define CAMERA_MOTOR_ENABLE "/sys/bus/platform/devices/vendor:motor_pl/enable"
+#define CAMERA_MOTOR_DIRECTION "/sys/bus/platform/devices/vendor:motor_pl/direction"
+#define CAMERA_ID_FRONT "1"
+
 namespace vendor {
 namespace lineage {
 namespace camera {
@@ -45,10 +49,24 @@ CameraMotor::CameraMotor() {
 }
 
 Return<void> CameraMotor::onConnect(const hidl_string& cameraId) {
+    if (cameraId == CAMERA_ID_FRONT) {
+        LOG(INFO) << "Popping out front camera";
+
+        set(CAMERA_MOTOR_DIRECTION, 1);
+        set(CAMERA_MOTOR_ENABLE, 1);
+    }
+
     return Void();
 }
 
 Return<void> CameraMotor::onDisconnect(const hidl_string& cameraId) {
+    if (cameraId == CAMERA_ID_FRONT) {
+        LOG(INFO) << "Retracting front camera";
+
+        set(CAMERA_MOTOR_DIRECTION, 0);
+        set(CAMERA_MOTOR_ENABLE, 1);
+    }
+
     return Void();
 }
 
