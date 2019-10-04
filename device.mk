@@ -41,5 +41,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_vendor.xml:system/etc/media_profiles_vendor.xml
 
+# Properties
+-include $(LOCAL_PATH)/device-props.mk
+
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1901/RMX1901-vendor.mk)
