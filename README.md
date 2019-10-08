@@ -6,8 +6,8 @@ The Realme X (codenamed _"RMX1901"_) is a mid-range smartphone from Realme. It w
 
 | Device                  | Realme X                                                                         |
 | ----------------------- | :------------------------------------------------------------------------------- |
-| SoC                     | Qualcomm SDM712 Snapdragon 712                                                   |
-| CPU                     | Dual-core 2.3 GHz Kryo 360 Gold + Hexa-core 1.7 GHz Kryo 360 Silver              |
+| SoC                     | Qualcomm SDM710 Snapdragon 710                                                   |
+| CPU                     | Dual-core 2.2 GHz Kryo 360 Gold + Hexa-core 1.7 GHz Kryo 360 Silver              |
 | GPU                     | 550 MHz Adreno 616                                                               |
 | Memory                  | 4/6/8 GB RAM (LPDDR4X 1866 MHz dual-channel)                                     |
 | Shipped Android Version | 9 with ColorOS 6.0                                                               |
