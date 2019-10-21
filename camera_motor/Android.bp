@@ -16,9 +16,10 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "lineage.camera.motor@1.0-service.realme_sdm710",
-    init_rc: ["lineage.camera.motor@1.0-service.realme_sdm710.rc"],
+    name: "vendor.lineage.camera.motor@1.0-service.realme_sdm710",
+    init_rc: ["vendor.lineage.camera.motor@1.0-service.realme_sdm710.rc"],
     srcs: ["service.cpp", "CameraMotor.cpp"],
+    vendor: true,
     shared_libs: [
         "libbase",
         "libhardware",
