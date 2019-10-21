@@ -12,9 +12,6 @@ DEVICE_PATH := device/realme/RMX1901
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1901
 
-# HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := RMX1901_defconfig
 
