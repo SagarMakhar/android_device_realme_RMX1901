@@ -4,4 +4,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.settings.xml=/system/etc/media_profiles_vendor.xml
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
