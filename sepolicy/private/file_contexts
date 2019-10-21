@@ -1,5 +1,0 @@
-# HIDL manifest
-/system/etc/manifest\.xml    u:object_r:vendor_configs_file:s0
-
-# HALs
-/system/bin/hw/lineage\.camera\.motor@1.0-service\.realme_sdm710	u:object_r:hal_lineage_camera_motor_realme_sdm710_exec:s0
