@@ -10,7 +10,7 @@ include device/realme/sdm710-common/BoardConfigCommon.mk
 DEVICE_PATH := device/realme/RMX1901
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1901
+TARGET_OTA_ASSERT_DEVICE := RMX1901,RMX1901CN
 
 # Kernel
 TARGET_KERNEL_CONFIG := RMX1901_defconfig
