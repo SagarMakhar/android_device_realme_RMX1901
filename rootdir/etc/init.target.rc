@@ -1,6 +1,0 @@
-on init
-    mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
-
-    # Hax to fix sensors
-    mount none /system/etc/placeholder /vendor/lib/hw/android.hardware.sensors@1.0-impl.so bind
-    mount none /system/etc/placeholder /vendor/lib64/hw/android.hardware.sensors@1.0-impl.so bind
