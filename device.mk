@@ -30,6 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from Realme sdm710-common
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
+# Camera Helper
+PRODUCT_PACKAGES += \
+    RealmeCameraHelper
+
 # camera Motor
 PRODUCT_PACKAGES += \
     vendor.lineage.camera.motor@1.0-service.realme_sdm710
