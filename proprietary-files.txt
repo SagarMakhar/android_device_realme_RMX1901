@@ -1,0 +1,80 @@
+# ACDB
+vendor/etc/acdbdata/18041/Hdmi_cal.acdb
+vendor/etc/acdbdata/18041/Speaker_cal.acdb
+vendor/etc/acdbdata/18041/Headset_cal.acdb
+vendor/etc/acdbdata/18041/General_cal.acdb
+vendor/etc/acdbdata/18041/Global_cal.acdb
+vendor/etc/acdbdata/18041/Bluetooth_cal.acdb
+vendor/etc/acdbdata/18041/Handset_cal.acdb
+
+# Camera
+vendor/lib/camera/com.qti.sensormodule.ofilm_gc5035.bin
+vendor/lib/camera/com.qti.sensormodule.sunny_imx586.bin
+vendor/lib/camera/com.qti.tuned.ofilm_gc5035.bin
+vendor/lib/camera/com.qti.tuned.sunny_imx586.bin
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin
+vendor/lib64/camera/com.qti.tuned.ofilm_gc5035.bin
+vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin
+
+# Display calibration data
+vendor/etc/qdcm_calib_data_oppo18041samsung_ams653tk01_1080_2340_cmd_mode_dsi_panel.xml
+
+# DRM
+vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
+vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmdecrypt_customer.so
+vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
+vendor/lib64/libtzplayready.so
+
+# EGIS FP Firmware
+vendor/firmware/egista.b00
+vendor/firmware/egista.b01
+vendor/firmware/egista.b02
+vendor/firmware/egista.b03
+vendor/firmware/egista.b04
+vendor/firmware/egista.b05
+vendor/firmware/egista.b06
+vendor/firmware/egista.b07
+vendor/firmware/egista.mdt
+
+# Fingerprint
+vendor/lib/hw/fingerprint.silead.default.so
+vendor/lib64/hw/fingerprint.silead.default.so
+vendor/lib/libsl_fp_algo.so
+vendor/lib/libsl_fp_impl.so
+vendor/lib/libsl_fp_nosec.so
+vendor/lib/libsl_fp_prepro.so
+vendor/lib64/libsl_fp_algo.so
+vendor/lib64/libsl_fp_impl.so
+vendor/lib64/libsl_fp_nosec.so
+vendor/lib64/libsl_fp_prepro.so
+
+# Oppo Voice Model Firmware
+vendor/firmware/audience/cvqmodels/oemkw_Baidu_YiXia.bin
+vendor/firmware/audience/cvqmodels/oemkw_Hello_VoiceQ.bin
+vendor/firmware/audience/cvqmodels/oemkw_XiaoDu_XiaoDu.bin
+vendor/firmware/audience/cvqmodels/refModel/ref_BaiDuYiXia1.model
+vendor/firmware/audience/cvqmodels/refModel/ref_BaiDuYiXia2.model
+vendor/firmware/audience/cvqmodels/refModel/ref_BaiDuYiXia3.model
+vendor/firmware/audience/cvqmodels/refModel/ref_BaiDuYiXia4.model
+vendor/firmware/audience/ia6xx/ia6xx-bargein-hw.bin
+vendor/firmware/audience/ia6xx/ia6xx-bargein-uart.bin
+vendor/firmware/audience/ia6xx/ia6xx-vs-hw.bin
+vendor/firmware/audience/ia6xx/ia6xx-vs-uart.bin
+
+# Sensors
+vendor/etc/sensors/config/bmi26x_0.json
+vendor/etc/sensors/config/icp101xx_0.json
+vendor/etc/sensors/config/sdm710_ak991x_1.json
+vendor/etc/sensors/config/sdm710_bmi26x_0.json
+vendor/etc/sensors/config/lsm6dsm_0.json
+vendor/etc/sensors/config/mmc3530kj_0.json
+vendor/etc/sensors/config/sdm710_lsm6dsm_1.json
+vendor/etc/sensors/config/sdm710_mmc3530kj_0.json
+vendor/etc/sensors/config/sdm710_stk3x3x_0.json
+vendor/etc/sensors/config/sdm710_sx932x_0.json
+vendor/etc/sensors/config/sdm710_tsl2540_0.json
+vendor/etc/sensors/config/stk3x3x_0.json
+vendor/etc/sensors/config/sx932x_0.json
+vendor/etc/sensors/config/tsl2540_0.json
