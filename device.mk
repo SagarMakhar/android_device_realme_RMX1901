@@ -30,6 +30,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from Realme sdm710-common
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/mixer_paths_18041.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_18041.xml
+
 # Camera Helper
 PRODUCT_PACKAGES += \
     RealmeCameraHelper
