@@ -1,0 +1,5 @@
+# Camera Motor
+type sysfs_motor, fs_type, sysfs_type;
+
+# Oppo display
+type sysfs_oppo_display, fs_type, sysfs_type;

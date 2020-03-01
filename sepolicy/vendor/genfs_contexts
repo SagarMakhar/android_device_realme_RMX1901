@@ -1,0 +1,5 @@
+# Camera Motor
+genfscon sysfs /devices/platform/vendor/vendor:motor_pl         u:object_r:sysfs_motor:s0
+
+# Oppo display
+genfscon sysfs /kernel/oppo_display      u:object_r:sysfs_oppo_display:s0

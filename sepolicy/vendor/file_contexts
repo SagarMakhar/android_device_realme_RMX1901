@@ -1,0 +1,6 @@
+# FOD Hal
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.realme_sdm710    u:object_r:hal_lineage_fod_default_exec:s0
+
+# Motor Hal
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.camera\.motor@1\.0-service\.realme_sdm710                        u:object_r:hal_lineage_camera_motor_default_exec:s0
+
